@@ -27,5 +27,10 @@ PRODUCT_TARGET_VNDK_VERSION := 34
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# OTA certs
+PRODUCT_EXTRA_RECOVERY_KEYS += \
+	$(DEVICE_PATH)/security/local_OTA \
+	$(DEVICE_PATH)/security/special_OTA
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
