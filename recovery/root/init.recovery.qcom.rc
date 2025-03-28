@@ -31,6 +31,7 @@ on early-init
 service post-boot-script /system/bin/sh -c /vendor/bin/init.kernel.post_boot-sun_default_6_2.sh
     user root
     group root
+    oneshot
     seclabel u:r:recovery:s0
 
 service prop-override-script /system/bin/sh -c /vendor/bin/propoverride.sh
@@ -76,5 +77,4 @@ on property:twrp.modules.loaded=true
     wait /sys/class/power_supply/battery
     start vendor.health-default
     start vendor.oplus.vibrator
-    start post-boot-script
     umount /firmware
