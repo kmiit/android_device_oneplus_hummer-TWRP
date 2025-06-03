@@ -62,8 +62,6 @@ on fs
 
 on post-fs
     start prop-override-script
-    mkdir /vendor/firmware_mnt
-    mount vfat /dev/block/bootdevice/by-name/modem${ro.boot.slot_suffix} /vendor/firmware_mnt ro
 
 on property:twrp.modules.loaded=true
     # Mount persist
