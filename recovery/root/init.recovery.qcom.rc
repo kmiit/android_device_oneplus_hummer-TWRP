@@ -84,3 +84,4 @@ on property:hwservicemanager.ready=true
 
 on property:vendor.sys.listeners.registered=true
     start vendor.ssgtzd
+    start vendor.se_omapi
