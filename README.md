@@ -42,9 +42,8 @@ Works:
 ## To use it:
 
 ```
-fastboot flash recovery out/target/product/dada/recovery.img
+fastboot flash recovery recovery.img
 or
-fastboot flash recovery_a out/target/product/dada/recovery.img
-fastboot flash recovery_b out/target/product/dada/recovery.img
-
+fastboot flash recovery_a recovery.img
+fastboot flash recovery_b recovery.img
 ```
