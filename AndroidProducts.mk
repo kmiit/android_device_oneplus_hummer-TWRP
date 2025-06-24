@@ -4,4 +4,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_rmx5010.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_PKR110.mk

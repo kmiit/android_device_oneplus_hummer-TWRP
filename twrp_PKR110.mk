@@ -4,23 +4,23 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/rmx5010
+DEVICE_PATH := device/OnePlus/PKR110
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := rmx5010
+PRODUCT_RELEASE_NAME := PKR110
 
 ## Device identifier
-PRODUCT_DEVICE := rmx5010
-PRODUCT_NAME := twrp_rmx5010
-PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX5010
-PRODUCT_MANUFACTURER := realme
+PRODUCT_DEVICE := PKR110
+PRODUCT_NAME := twrp_PKR110
+PRODUCT_BRAND := OnePlus
+PRODUCT_MODEL := PKR110
+PRODUCT_MANUFACTURER := OnePlus
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX5010,RE6018L1
+TARGET_OTA_ASSERT_DEVICE := PKR110,OP60EBL1
 
 # Theme
 TW_STATUS_ICONS_ALIGN := center
